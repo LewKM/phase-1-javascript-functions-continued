@@ -10,7 +10,7 @@ function mondayWork(routine = "go to the office") {
 }
 
 function wrapAdjective(cool = "*") {
-    return function(message = "a hard worker") {
+    return function(message = "special") {
         return `You are ${cool}${message}${cool}!`;
     }
 }
